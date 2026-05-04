@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 03 - CSS</title>
+    <style>
+        *{
+            margin: 1;
+            padding: 0;
+        }
+        body{
+            background-color: black;
+        }
+        .prin{
+            background-color: white;
+            width: 1050px;
+            padding: 10px;
+            border-radius: 15px;
+            margin: auto;
+        }
+        .logo{
+            width: 33%;
+            height: 33%;
+        }
+        .centro{
+            text-align: center;
+        }
+        nav{
+            background-color: black;
+            padding: 15px;
+            text-align: center;
+            border-radius: 20px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a {
+            color: white;
+            text-decoration: none;
+        }
+        a:hover{
+            color: rgb(205, 205, 205);
+        }
+        .cor{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            text-shadow: 2px 2px 4px #000000;
+        }
+        .foto{
+            border: 2px solid rgb(255, 255, 255);
+            background-color: rgb(255, 255, 255);
+            padding: 0;
+            margin: 10px;
+            width: 150;
+            float: left;
+        }
+        .font{
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        }
+        .clear{
+            clear: both;
+        }
+        .corT{
+            text-align: center;
+            margin: 40px;
+            height: 200px;
+            width: 270px;
+            padding: 0;
+            float: left;
+            border-top: double 2px green;
+        }
+        .linha{
+            border-top: double 2px green;
+        }
+        footer{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="prin">
+        <header>
+            <div class="centro">
+                <picture>
+                    <img class="logo" src="img/360_F_1802272383_04AXDSnSP7ZKkI6OvaEDFZibu53NjWZI.jpg" alt="logo" height="150" width="150">
+                </picture>
+            </div>
+            <div class="menu">
+            <nav class="a">
+                <a href="#"><span>HOME</span></a>
+                <a href="#"><span>CONDOMINIOS</span></a>
+                <a href="#"><span>LAZER</span></a>
+                <a href="#"><span>PLANOS</span></a>
+            </nav>
+            </div>
+        </header>
+        <main>
+            <div>
+                <h2 class="cor">Conheça a Lorem Ipsum</h2>              
+                    <div class="foto">
+                        <img class="cent" src="img/A-Importancia-de-criar-momentos-de-qualidade-em-familia-1024x576.jpg" height="200" width="300">
+                    </div>
+                    <div>
+                        <p class="font">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi, a voluptas? Quidem nesciunt quo sint quibusdam fugit, reprehenderit quia cum assumenda voluptate nostrum, dicta id. Obcaecati minus perferendis consequuntur aliquid!
+                        </p>
+                        <p class="font">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates placeat perspiciatis, exercitationem totam, illo hic accusamus quaerat ut laboriosam tenetur tempora quae? Mollitia, molestiae cupiditate esse autem perspiciatis in aut!
+                        </p>
+                        <p class="font">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates placeat perspiciatis, exercitationem totam, illo hic accusamus quaerat ut laboriosam tenetur tempora quae? Mollitia, molestiae cupiditate esse autem perspiciatis in aut!
+                        </p>
+                    </div>
+                    <div class="clear"></div>
+                    <p class="font">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates placeat perspiciatis, exercitationem totam, illo hic accusamus quaerat ut laboriosam tenetur tempora quae? Mollitia, molestiae cupiditate esse autem perspiciatis in aut!
+                    </p>
+                    <p class="font">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates placeat perspiciatis, exercitationem totam, illo hic accusamus quaerat ut laboriosam tenetur tempora quae? Mollitia, molestiae cupiditate esse autem perspiciatis in aut!
+                    </p>
+                    <p class="font">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates placeat perspiciatis, exercitationem totam, illo hic accusamus quaerat ut laboriosam tenetur tempora quae? Mollitia, molestiae cupiditate esse autem perspiciatis in aut!
+                    </p>
+                    <div class="linha"></div>
+                    <div class="clear"></div>
+                <div class="corT">
+                    <img class="cent" src="img/6326651-tropical-praia-sundown-horizonte-paisagem-vetor.jpg" height="200" width="270">
+                    <legend>Vila Nova Deli</legend>
+                </div>
+                <div class="corT">
+                    <img class="cent" src="img/Paisagem-1.jpg" height="200" width="270">
+                    <legend>Paraty Resort</legend>
+                </div>
+                <div class="corT">
+                    <img class="cent" src="img/pngtree-sunset-dawn-in-morning-warm-light-in-sky-heavenly-landscape-in-image_15664469.jpg" height="200" width="270">
+                    <legend>Five Towers</legend>
+                </div>
+                <div class="clear"></div>
+                <div class="linha"></div>
+            <p class="font">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates placeat perspiciatis, exercitationem totam, illo hic accusamus quaerat ut laboriosam tenetur tempora quae? Mollitia, molestiae cupiditate esse autem perspiciatis in aut!
+            </p>
+        </div>
+    </main>
+    <hr>
+    <footer>
+        <p class="cent"> <small>&copy; Lorem ipsum <br> SENAI/SP</small></p>
+    </footer>
+    </div>    
+</body>
+</html>
