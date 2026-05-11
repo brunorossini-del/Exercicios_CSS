@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>UFC</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            .titulo{
+                background-color: rgb(0, 0, 0);
+                text-transform: uppercase;
+                text-align: center;
+                padding: 30px;
+                color: rgb(255, 255, 255);
+            }
+            .conteudo{
+                background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(69, 69, 69), rgb(219, 219, 219));
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                align-items: center;
+            }
+
+            .item{
+                width: 20%;
+                height: 200px;
+                margin: 10px;
+                background: rgb(244, 241, 241);
+                flex-grow: 0;
+                flex-shrink: 1;
+                border-radius: 10px;
+                background-size: 90%;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-color: rgb(0, 0, 0);
+            }
+            .item:hover{
+                width: 30%;
+                height: 300px;
+            }
+            .itemA{
+                background-image: url(img/Chimaev.jpg);
+            }
+            .itemB{
+                background-image: url(img/Topuria.jpg);
+            }
+            .itemC{
+                background-image: url(img/Poatan.jpg);
+            }
+            .itemD{
+                background-image: url(img/makhachev.jpg);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="titulo">
+            <h1>UFC</h1>
+        </div>
+        <div class="conteudo">
+            <div class="item itemA"></div>
+            <div class="item itemB"></div>
+            <div class="item itemC"></div>    
+            <div class="item itemD"></div>
+            <div class="item itemE"></div>    
+        </div>
+    </body>
+</html>
